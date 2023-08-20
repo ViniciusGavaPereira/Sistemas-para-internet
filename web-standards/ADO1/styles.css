@@ -1,0 +1,131 @@
+body{
+    background-color: aquamarine;
+}
+
+h1{
+    margin-left: 5%;
+}
+
+hr{
+    height: 1px;
+    background-color: #FF7200;
+}
+
+
+.curriculo{
+    position:absolute;
+    left: 0px;
+    top:0px;
+    width: 65%;
+    height: 800px;
+    background-color: #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 1em black;
+
+}
+
+.barra-lateral{
+    color: white;
+    position:absolute;
+    left: 0px;
+    top:0px;
+    height: 100%;
+    width: 35%;
+    background-color: #FF7200    ;
+}
+
+.separador{
+    background-color: rgb(255, 206, 115);
+    color: white;
+    font-size: 95%;
+    height: 6%;
+    vertical-align: middle;
+}
+
+.separador h2{
+    padding-top: 4%;
+    margin-left: 5%
+
+}
+
+.info{
+    margin: 10% 10%
+}
+
+.info h3, p{
+    margin: 4% 2% 4% 2%;
+}
+
+.info p{ 
+    font-size: 80%;
+    margin-bottom: 6%
+
+}
+
+.info:last-of-type {
+    margin: 4% 10% 4% 10%;
+
+}
+
+.info:last-of-type h3 {
+    font-size: 100%;
+    margin: 3% 3%;
+}
+
+.info:last-of-type p {
+    font-size: 18px;
+    margin: 3% 3%;
+}
+
+
+.barra-central{
+    position:absolute;
+    right: 0%;
+    top:0px;
+    height: 100%;
+    width: 65%;
+
+
+}
+
+.barra-central h1, hr{
+    color: #10054B;
+    margin: 2% 2% 2% 2%;
+
+    
+}
+
+
+.barra-central section:first-of-type {
+    margin: 6% 5% 6% 3%;
+
+    font-size: 90%;
+
+    
+}
+
+.detalhes{
+    margin: 3% 5% 2% 5%;
+}
+
+.detalhes h2{
+    font-size: 95%;
+    margin-bottom: 1%;
+    
+}
+
+.detalhes p{
+    font-size: 80%;
+    margin: 1%
+}
+
+.detalhes:last-of-type b{
+    font-size: 17px
+}
+
+.detalhes:last-of-type p{
+    font-size: 15px;
+    margin-bottom: 15px
+}
