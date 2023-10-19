@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+           <legend><h1>Informações pessoais</h1></legend>
+           <label for="fName">Primeiro nome</label><br>
+           <input type="text" name="fName"><br>
+           <label for="fName">Sobrenome</label><br>
+           <input type="text" name="fSobreName"><br>
+           <label for="fIdade">Idade</label><br>
+           <input type="number" name="fNumber"><br>
+           <label for="fName">E-mail</label><br>
+           <input type="text" name="fEmail"><br>
+           <label for="fTelefone">Telefone</label><br>
+           <input type="number" name="fTelefone"><br>
+           <label for="fCidade">Cidade</label><br>
+           <input type="text" name="fCidade"><br>
+
+
+
+
+
+           <label for="fEstado">Estados</label><br>
+           <select>
+                <option value="-Nenhum-">-Nenhum-</option>
+                <option value="Acre">Acre</option>
+                <option value="Alagoas">Alagoas</option>
+                <option value="Amapá">Amapá</option>
+                <option value="Amazonas">Amazonas</option>
+                <option value="Bahia">Bahia</option>
+                <option value="Ceará">Ceará</option>
+                <option value="EspíritoSanto ">Espírito Santo</option>
+                <option value="Goiás">Goiás</option>
+                <option value="Maranhão">Maranhão</option>
+                <option value="MatoGrosso">Mato Grosso</option>
+                <option value="MatoGrossodoSul">Mato Grosso do Sul</option>
+                <option value="MinasGerais">Minas Gerais</option>
+                <option value="Pará">Pará</option>
+                <option value="Paraíba">Paraíba</option>
+                <option value="Paraná">Paraná</option>
+                <option value="Pernambuco">Pernambuco</option>
+                <option value="Piauí">Piauí</option>
+                <option value="RiodeJaneiro">Rio de Janeiro</option>
+                <option value="RioGrandedoNorte">Rio Grande do Norte</option>
+                <option value="RioGrandedoSul">Rio Grande do Sul</option>
+                <option value="Rondônia">Rondônia</option>
+                <option value="Roraima">Roraima</option>
+                <option value="SantaCatarina">Santa Catarina</option>
+                <option value="SãoPaulo">São Paulo</option>
+                <option value="Sergipe">Sergipe</option>
+                <option value="Tocantins">Tocantins</option>
+                <option value="Distrito Federal">Distrito Federal</option>
+           </select><br>
+          
+
+           <label for="fName">CEP</label><br>
+           <input type="text" max="9" name="fCEP"><br>
+
+
+           <label for="fName">Bio</label><br>
+           <textarea name="message" rows="10" cols="30"></textarea><br>
+
+           <label for="fIdiomas">Idiomas</label><br>
+           <input list="Idiomas"  name="fIdiomas">
+           <datalist id="Idiomas">
+            <option value="Português">Português</option>
+            <option value="Inglês">Inglês</option>
+            <option value="Francês">Francês</option>
+            <option value="Russo">Russo</option>
+            <option value="Chinês">Chinês</option>
+           </datalist>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend><h1>Preferências do usuário</h1></legend>
+            
+            <label for="fCores">Escolha sua cor favorita</label><br>
+            <input type="color" name="fCor"><br>
+            <br>
+            <label for="fCores">Faixa de renda</label><br>
+            <input type="Number" name="fRenda" min="0" max="5000"><br>
+            <br>
+            <fieldset>
+                <legend for="time">Escolha seu time favorito</legend>
+                <input type="radio" id="corinthians" name="fav_time" value="corinthians"> Corinthians
+                <input type="radio" id="saoPaulo" name="fav_time" value="SãoPaulo"> São Paulo
+                <input type="radio" id="palmeiras" name="fav_time" value="Palmeiras"> Palmeiras
+            </fieldset>
+
+
+            <fieldset>
+                <legend for="time">Marque as suas comidas favoritas</legend>
+                <input type="checkbox" id="arroz" name="fav_food" value="arroz">Arroz <br>
+                <input type="checkbox" id="feijao" name="fav_food" value="feijao">Feijao<br>
+                <input type="checkbox" id="carne" name="carne" value="Palmeiras">Carne<br>
+                <input type="checkbox" id="frango" name="frango" value="Palmeiras">Frango<br>
+                <input type="checkbox" id="peixe" name="peixe" value="Palmeiras">Peixe<br>
+                <input type="checkbox" id="macarrao" name="macarrao" value="Palmeiras">Macarrao<br>
+                <input type="checkbox" id="pureDeBatatas" name="pureDeBatatas" value="Palmeiras">Pure de Batatas<br>
+                <input type="checkbox" id="feijoada" name="feijoada" value="Palmeiras">Feijoada<br>
+            </fieldset>
+
+
+        </fieldset>
+    </form>
+</body>
+</html>
