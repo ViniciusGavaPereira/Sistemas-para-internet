@@ -47,7 +47,9 @@ nav li{
 }
 
 nav li:hover{
-    color:#FFAA00
+    color:#FFAA00;
+    font-weight: var(--bold);
+
 }
 
 nav button{
@@ -55,13 +57,26 @@ nav button{
 
 }
 
+
+
 nav button:first-of-type{
     width: 100px;
     height: 25px;
     border-radius: 15px;
     border:none;
     background-color: aqua;
-    box-shadow: 1px 1px grey}
+    box-shadow: 1px 1px grey
+}
+
+nav button:first-of-type:hover{
+    width: 105px;
+    height: 27px;
+    border-radius: 15px;
+    border:none;
+    background-color: aqua;
+    font-weight: var(--bold);
+
+}
 
 nav button:last-of-type{
     width: 100px;
@@ -70,6 +85,16 @@ nav button:last-of-type{
     border:none;
     background-color: #FFAA00;
     box-shadow: 1px 1px grey
+}
+
+nav button:last-of-type:hover{
+    width: 105px;
+    height: 27px;
+    border-radius: 15px;
+    border:none;
+
+    font-weight: var(--bold);
+
 }
 
 
@@ -96,9 +121,7 @@ section{
     margin: 25px 20px;
 }
 
-.cartao b{
-    color: #FFAA00
-}
+
 
 .cartao p{
     margin: 0px 20px;
