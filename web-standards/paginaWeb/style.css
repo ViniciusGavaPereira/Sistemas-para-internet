@@ -127,3 +127,20 @@ section{
     margin: 0px 20px;
 }
 
+
+
+
+
+.wrapper{
+    background-color: turquoise;
+    display: grid;
+    grid-template-columns: 25vw 25vw 25vw ;
+    grid-template-rows: 15vw 15vw;
+    justify-content: center;
+    align-content: center
+}
+.wrapper div{
+    background-color: red;
+    text-align: center; 
+}
+
