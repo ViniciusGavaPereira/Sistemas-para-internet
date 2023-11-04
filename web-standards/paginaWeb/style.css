@@ -12,6 +12,13 @@ header{
 
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+b{
+    color:#FFAA00;}
 
 
 
@@ -99,7 +106,7 @@ nav button:last-of-type:hover{
 
 
 
-section{
+.principal{
     display: flex;
     height: 90vh;
     background-image: url("./img/wallpaper.png");
@@ -129,18 +136,57 @@ section{
 
 
 
+/* Página de serviços */
 
-
+main{
+    background: #090909;
+}
 .wrapper{
-    background-color: turquoise;
+    background-color: #090909;
     display: grid;
-    grid-template-columns: 25vw 25vw 25vw ;
-    grid-template-rows: 15vw 15vw;
+    grid-template-columns: 30vw 30vw 30vw ;
+    grid-template-rows: 20vw 20vw;
     justify-content: center;
-    align-content: center
+    align-content: center;
+    
 }
 .wrapper div{
-    background-color: red;
+    background-color: #ffffffe0;
     text-align: center; 
+    margin: 25px;
+    border-radius: 25px
+}
+
+main section{
+    display: flex;
+
+}
+
+.wrapper2{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    
+}
+
+.wrapper2 :first-child{
+    margin-top: 5vw;
+
+}
+
+.wrapper2 :last-child{
+    margin-top: 5vw;
+}
+
+.wrapper2 :last-child h1{
+    color: whitesmoke;
+    margin-left: 2vw;
+} 
+.wrapper2 :last-child p{
+    color: whitesmoke;
+    margin: 0vw 2vw
+}
+
+.wrapper2 img{
+    width: 40vw;
 }
 
